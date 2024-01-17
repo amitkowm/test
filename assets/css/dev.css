@@ -1,0 +1,542 @@
+/* css added for footer link */
+
+.menu-headn a {
+    font-size: 22px !important;
+    color: #0e77bc !important;
+    font-weight: 700 !important;
+    line-height: 1.1 !important;
+    margin-bottom: 10px !important;
+    margin-top: 0 !important;
+    cursor:text !important;
+}
+li#menu-item-13476 {
+    float: right;
+    left: 0px;
+}
+.submenu-nav.style2 li {
+  padding: 0px;
+}
+ul.submenu-nav.style2 li {
+    width:50%;
+    float:left;
+}
+
+.pt-250{
+ padding-top:300px !important;   
+}
+.footer-area .widget-item .menu li {
+  margin-bottom: 18px;
+  position: relative;
+
+}
+
+.footer-area .widget-item #menu-footer-provincial-databases-menu li {
+  margin-bottom: 18px;
+  position: relative;
+  width:50%;
+  float:left;
+}
+.footer-area .widget-item .menu li:before {
+  color: #fff;
+  content: "";
+  font-family: "IcoFont";
+  font-size: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.footer-area .widget-item .menu li:after {
+  background-color: #ff8a00;
+  bottom: -2px;
+  content: "";
+  height: 1px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.footer-area .widget-item .menu li a:after {
+  background-color: #ff8a00;
+  bottom: -2px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  width: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.footer-area .widget-item .menu li a:hover {
+  color: #ff8a00;
+}
+.footer-area .widget-item .menu li a:hover:before {
+  color: #ff8a00;
+}
+.footer-area .widget-item .menu li a:hover:after {
+  left: 30px;
+  width: calc(100% - 30px);
+}
+.footer-area .widget-item .menu li:last-child {
+  margin-right: 0;
+}
+.footer-area .widget-item .menu li:hover:before {
+  color: #ff8a00;
+}
+.footer-area .widget-item .menu li:hover:after {
+  width: 0;
+}
+.footer-area .menu-wrap-column {
+  padding-left: 21px;
+}
+
+.footer-area .widget-item .menu li a {
+   color: #fff;
+   font-size: 15px;
+   display: inline-block;
+   padding-left: 30px;
+   position: relative;
+}
+ 
+@media only screen and (min-width: 1200px) {
+.page-id-13336 .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+ 
+}
+/* Product Listing css */
+	.checkbox.checkbox-primary {
+    /* float: left; */
+    display: inline-block;
+    margin-right: 22px;
+}
+.page-id-13419 .sidebar-area .widget {
+    background-color: #f6f7fc;
+    border-radius: 25px;
+    padding: 24px 15px 15px;
+    margin-bottom: 25px;
+}
+.pagination-area a {
+    background-color: #f6f7fc;
+    border-radius: 15px;
+    color: #121421;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+.pagination-area a.next, .pagination-area a.prev {
+   
+    font-size: 18px;
+}
+.pagination-area a:hover{
+   background-color: #0e77bc; 
+    color: #fff;
+}
+.page-id-13584 section.testimonial-area.testimonial-about.bg-grey-unlmt.testimonial-default-area.pt-50.pb-100 {
+    background: #fff !important;
+}
+/* end here */
+
+/* Contact Us */
+
+.wpcf7-response-output {
+    display: none !important;
+}
+
+.bread-crumbs ul li {
+    display: inline-block;
+    padding-right: 12px;
+}
+ul#breadcrumbs {
+margin-bottom: 0px;
+}
+.bread-crumbs ul li:last-child{
+padding-right:0px !important;
+}
+.wpcf7-not-valid-tip {
+ 
+   line-height: 18px;
+}
+
+
+		.contact-form .form-group .form-control, .contact-form .form-group textarea {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    color: #212529;
+    font-size: 15px;
+    height: 55px;
+    padding: 12px 30px;
+}
+		.contact-colunm .contact-form{
+			background-color: #f6f7fc;
+		}
+		.contact-colunm .contact-form .section-title .title{
+			color:#0e77bc !important;
+		}
+		.contact-form .form-group .btn-theme{
+			border:none !important;
+		}
+		.contact-form .form-group .btn-theme:hover{
+			background-color: #0e77bc;
+		}
+		::placeholder {
+   color: #212529 !important;
+}
+/* Contact Us css end */
+
+/* Footer css */
+
+.form-area.form-default-area {background:#f6f7fc url('../images/background/form-bg.jpg') 0 0 no-repeat; background-size:cover;}
+.bg-image-about{
+	background:url("../images/background/about-help-bg.jpg") center !important;
+	background-size: cover !important;
+}
+.bg-image-about2 {
+    background: url(/wp-content/uploads/2021/10/upgrades-middle-new-img.jpg) left !important;
+    background-size: cover !important;
+}
+
+/* Blog listing Css */
+span.page-numbers.current {
+    background-color: #0e77bc;
+    color: #fff;
+}
+.blog .pagination-area nav ul.page-list,.archive .pagination-area nav ul.page-list {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+.blog .pagination-area nav .page-list li .page-numbers:hover, .archive .pagination-area nav .page-list li .page-numbers:hover {
+    background-color: #0e77bc;
+    color: #fff;
+}
+.blog .pagination-area nav .page-list li a.page-numbers,.archive .pagination-area nav .page-list li a.page-numbers {
+        align-items: inherit ;
+    background-color: #f6f7fc ;
+    border-radius: 15px ;
+    color: #121421;
+    display: inline-block ;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+.blog .pagination-area nav .page-list li .page-numbers.next:hover, .archive .pagination-area nav .page-list li .page-numbers.next:hover {
+    background-color: #0e77bc;
+    color: #fff;
+}
+.blog .pagination-area nav .page-list li .page-numbers.next, .blog .pagination-area nav .page-list li .page-numbers.prev, .archive .pagination-area nav .page-list li .page-numbers.next, .archive .pagination-area nav .page-list li .page-numbers.prev{
+   
+    font-size: 18px;
+}
+.blog .pagination-area nav .page-list li, .archive .pagination-area nav .page-list li {
+    line-height: 1;
+    margin-right: 10px;
+    padding: 0;
+}
+span.page-numbers.current{
+     align-items: inherit ;
+    
+    border-radius: 15px ;
+   
+    display: inline-block ;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+
+
+body.blog .post-item .thumb img {
+    height: 376.66px !important;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+}
+
+/* Category Page */
+.archive .thumb .catimg {
+    height: 376.66px !important;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+}
+
+/* Blog Detail */
+
+.getintouch-form textarea.wpcf7-form-control.wpcf7-textarea.form-control {
+    height: 62px;
+}
+.thumb.featured-img-section img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+}
+
+.recentblogs .post-item .thumb img {
+    height: 370px !important;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+}
+
+.post-details-body .sidebar-area .widget{
+margin-bottom: 0px !important;
+}
+.single-post .post-details-content img.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-top: 25px;
+}
+
+
+/* Testimonials Page */
+
+.testimonial-bg {
+    background: url(../images/background/tes-bg.jpg);
+}
+
+/* Online Subscription */
+.bg-image-about3 {
+    background: url(../images/background/why-choose-detail.jpg) center !important;
+    background-size:cover !important;
+}
+
+/* Product Detail Page */
+
+.productdetail .sidebar-area .widget{
+    margin-bottom:25px !important;
+}
+.productdetail .video-divider img {
+    width:100%;
+}
+.video-divider img {
+    border-radius: 20px !important;
+}
+#more {
+    display: none;
+}
+.accordion-body.more-description p {
+    text-align: justify;
+}
+
+/*Infographics Page */
+.infographics-list .thumb {
+    overflow: hidden;
+    height: 420px;
+}
+.infographic-detail .blog-details-column{
+    display:block;
+}
+.infographic-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 70%;
+}
+.recent-infographics .thumb{
+    overflow: hidden;
+    height: 420px;
+}
+
+/* Thank You page css */
+
+.minh-wrap {
+    min-height: 300px;
+}
+
+/* scotts login page css */
+
+a.btn-theme.btn-style.btn-prdct.full-width:active{
+    background: #fff !important;
+    color: #0e0e0e !important;
+}
+a.btn-theme.btn-style.btn-prdct.full-width{
+    margin-top:0px;
+}
+
+.header-area.header-default.transparent .header-align .header-navigation-area .main-menu > li.current-menu-item > a:after, .header-area.header-default.transparent .header-align .header-navigation-area .main-menu > li.current-menu-item > a:after{
+    background-color: #f7a522;
+    height: 108px;
+
+    
+}
+.current-menu-ancestor.current-menu-parent {
+   background-color: #f7a522; 
+}
+.current-menu-ancestor.current-menu-parent a:after{
+background-color: #f7a522;
+height: 108px !important;
+}
+.current-menu-ancestor.current-menu-parent:after{
+background-color: #f7a522;
+height: 5px !important;
+}
+.header-area.header-default.sticky-header.sticky .header-align .header-navigation-area .main-menu .current-menu-ancestor.current-menu-parent{
+    background-color: transparent !important;
+}
+.header-area.header-default.sticky-header.sticky .header-align .header-navigation-area .main-menu .current-menu-ancestor.current-menu-parent a {
+    background-color: transparent !important;
+    color: #0e77bc;
+}
+.header-area.header-default.transparent .header-align .header-navigation-area .main-menu > li.current-menu-item:after, .header-area.header-default.transparent .header-align .header-navigation-area .main-menu > li.current-menu-item:after {
+    background-color: #f7a522;
+    height: 5px;
+}
+
+/* lead Generation */
+
+#vald_lead
+{
+    color: red;
+}
+a.current_page {
+    background-color: #0e77bc;
+    color: #fff;
+}
+
+/* Product Listing css */
+aside.kc_column_inner .column div.h2 {
+float: left;
+display: inline-block;
+margin-right: 10px;
+vertical-align: middle;
+margin-bottom: 0px;
+line-height: 25px;
+}
+
+.microsite-inner-content ul {
+    margin-bottom: 20px;
+}
+
+/* Schools Database */
+.bg-image-about4{
+/*	background:url("/wp-content/uploads/2021/10/scotts-banner-schools.jpg") center !important; */
+	background-size:cover !important;
+}
+.bg-image-about5{
+ 	background:url("/wp-content/uploads/2021/10/sschool-bd2.jpg") center !important;
+
+}
+.schoolsinner-morecontent ul.list-content {
+    margin-bottom: 20px;
+}
+
+#vald3
+{
+   color: #ff0101 !important;
+    font-weight: 500 !important;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.database_section .video-divider img {
+    width: 100%;
+    max-height: 369px;
+}
+.database-pricing .price-value{
+    text-transform:uppercase;
+}
+
+/* Case Studies Page */
+
+.logo-case {
+       margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+/*.logo-case p {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+align-items: center;
+}*/
+.logo-case img {
+    display: flex;
+    margin-right: 40px;
+    
+}
+
+/* Free Trial Page */
+#vald2{
+text-align:center;
+}
+
+
+.french-contactform textarea.wpcf7-form-control.wpcf7-textarea.form-control{
+height:56px;
+}
+
+/* PU Free Trial Page */
+
+#vald_pu{
+  text-align:center;  
+  color:red;
+}
+
+.error {
+    border: 1px solid #ff0101!important;
+}
+
+/* Canadian Mailing List Information */
+#vald1{
+font-weight:500;
+color: #ff0101!important;
+text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.product-details-page .table {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+/* Schools Internal Pages CSS added on 24-11-2021 */
+
+.schools-internalvideo img {
+    width: 100%;
+    border-radius: 20px !important;
+}
+
+.micrositesinnerpage-video img{
+      width: 100%;
+    border-radius: 20px !important; 
+}
+
+/* category pages */
+.archive .blog-list .post-item .thumb img {
+    height: 376.66px !important;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+}
